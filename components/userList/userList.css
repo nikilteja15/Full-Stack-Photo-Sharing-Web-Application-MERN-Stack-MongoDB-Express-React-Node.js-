@@ -1,0 +1,15 @@
+.ButtonStyle {
+  background-color: #eef2f7;
+  color: #333;
+  text-align: left;
+  display: block;
+  width: 100%;
+  padding: 15px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.ButtonStyle:hover {
+  background-color: #dde4eb;
+  transform: scale(1.02);
+}

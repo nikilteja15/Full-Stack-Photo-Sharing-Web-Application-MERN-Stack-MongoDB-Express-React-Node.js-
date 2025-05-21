@@ -1,0 +1,29 @@
+.user-detail-box {
+  border: 2px solid #3498db;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #f7f9fc;
+  transition: background-color 0.3s ease;
+}
+
+.user-detail-box:hover {
+  background-color: #eef2f7;
+}
+
+.user-detail-title {
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.user-detail-value {
+  color: #5a6a7d;
+  margin-bottom: 10px;
+}
+
+.loading-text {
+  font-style: italic;
+  color: #b4bac1;
+}

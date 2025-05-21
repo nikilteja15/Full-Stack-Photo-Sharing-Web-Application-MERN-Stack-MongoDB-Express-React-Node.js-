@@ -1,0 +1,88 @@
+/* Styling for the photo list */
+.photo-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centers the photos if they don't fill the entire row */
+  padding: 20px;
+}
+
+/* Styling for each photo item */
+.photo-item {
+  width: 180px; /* Fixed width for consistency */
+  margin: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+  transition: box-shadow 0.3s ease; /* Transition for the shadow effect */
+}
+
+.photo-item:hover .photo-actions {
+  display: block; /* Show actions on hover */
+}
+
+/* Styling for the thumbnail image */
+.thumbnail-image {
+  width: 100%; /* Full width of the parent */
+  height: 180px; /* Fixed height */
+  object-fit: cover; /* Ensures the image covers the area nicely */
+}
+
+/* Actions styling */
+.photo-actions {
+  display: none; /* Hide by default */
+  justify-content: center;
+  padding: 10px;
+}
+
+/* Modal overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6); /* Dark overlay for better focus */
+  z-index: 1000; /* Ensures it's on top */
+}
+
+/* Modal content styling */
+.modal-content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the modal */
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: auto; /* Auto-width based on the content */
+  max-width: 80%; /* Max width to avoid too large images */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5); /* Stronger shadow for modal */
+  z-index: 1001; /* Above the overlay */
+}
+
+/* Modal image styling */
+.modal-image {
+  max-width: 100%; /* Ensures it doesn't overflow the modal */
+  height: auto; /* Keeps the aspect ratio */
+  margin-bottom: 20px; /* Space between image and caption */
+}
+
+/* Close button styling */
+.close-modal-button {
+  position: absolute;
+  top: -10px; /* Position it outside the top-right corner of modal */
+  right: -10px;
+  background-color: white; /* Add background to the button to hide overlay behind it */
+  border-radius: 50%; /* Circular button */
+  padding: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Consistent shadow with the photo items */
+  z-index: 1002; /* Above modal content */
+}
+
+/* Hover effect for the close button */
+.close-modal-button:hover {
+  background-color: #f5f5f5; /* Lighter background on hover */
+}
+
+/* Hide element class */
+.hidden {
+  display: none;
+}

@@ -1,0 +1,13 @@
+.main-topbar-buffer {
+  margin-top: 80px;
+}
+
+.main-grid-item {
+  height: calc(100vh - 90px);
+  padding: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.main-grid-item:hover {
+  background-color: #f5f7fa;
+}

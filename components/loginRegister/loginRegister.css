@@ -1,0 +1,36 @@
+.login-register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.login-register-form {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.registration-dialog-title {
+  text-align: center;
+}
+
+.registration-dialog-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.registration-dialog-actions {
+  justify-content: center;
+}
+
+.registration-dialog-warning {
+  margin-bottom: 10px;
+}
+
+.registration-input {
+  margin-bottom: 10px;
+}
+
+.registration-textarea {
+  margin-bottom: 10px;
+}

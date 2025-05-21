@@ -1,0 +1,110 @@
+.UserPhotos__ButtonLink {
+  margin-bottom: 25px;
+}
+
+.UserPhotos__like-button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.UserPhotos__like-button:hover {
+  background-color: #2980b9;
+}
+
+.UserPhotos__like-button--liked {
+  background-color: #e74c3c;
+}
+
+.UserPhotos__like-button--liked:hover {
+  background-color: #c0392b;
+}
+
+.UserPhotos__Header {
+  font-size: 26px;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.UserPhotos__photo-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centers the photos */
+}
+
+.UserPhotos__photo-item {
+  width: calc(50% - 10px); /* Adjust width for two columns */
+  margin: 5px; /* Small margin for spacing */
+}
+
+.UserPhotos__photo-image {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+}
+
+.UserPhotos__photo-box {
+  border: 2px solid #3498db;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #f7f9fc;
+  transition: background-color 0.3s ease;
+}
+
+.UserPhotos__photo-box:hover {
+  background-color: #eef2f7;
+}
+
+.UserPhotos__photo-title {
+  font-weight: bold;
+  color: #2980b9;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.UserPhotos__photo-value {
+  color: #2c3e50;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.UserPhotos__loading-text {
+  font-style: italic;
+  color: #7f8c8d;
+}
+
+/* Additional styles for dialog components */
+.UserPhotos__comment-dialog {
+  background-color: #f7f9fc;
+}
+
+.UserPhotos__comment-dialog-title {
+  font-size: 20px;
+  color: #2c3e50;
+}
+
+.UserPhotos__comment-dialog-text {
+  color: #2c3e50;
+}
+
+.UserPhotos__comment-textfield {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.UserPhotos__comment-dialog-actions {
+  margin-top: 20px;
+}
+
+.UserPhotos__add-comment-btn {
+  background-color: #3498db;
+  color: #fff;
+  &:hover {
+    background-color: #2980b9;
+  }
+}
