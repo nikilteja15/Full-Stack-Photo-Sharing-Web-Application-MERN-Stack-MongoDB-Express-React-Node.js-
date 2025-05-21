@@ -68,7 +68,7 @@ const SchemaInfo = require("./schema/schemaInfo.js");
 // this line for tests and before submission!
 mongoose.set("strictQuery", false);
 mongoose.connect(
-  "mongodb+srv://dattasai:dattasai@cluster0.erwon.mongodb.net/project6",
+  "mongodb--<url>",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
